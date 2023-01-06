@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Piedra Papel Tijera</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="titulo">Cachipún </h1>
+        <img src="./sp_366_02.png" height="50px">
+    </header>
+    <main class="main">
+        <div class="competidores">
+            <nav class="elecciones">
+                <h2 class="competidor">Computador: <span id="contadorComputer"></span></h2>
+                <span id="computerChoice" class="eleccion"></span>
+            </nav>
+            <h2 class="competidor">VS</h2>
+            <nav class="elecciones">
+                <h2 class="competidor">Tú: <span id="contadorUser"></span></h2>
+                <span id="yourChoice" class="eleccion"></span>
+            </nav>
+        </div>
+        <h2 class="resultado">Resultado: <span id="result"></span></h2>
+        <nav class="eleccionUsuario">
+            <h3>Elige sabiamente: </h3>
+            <div class="botones">
+                <button id="piedra" class="boton">Piedra 👊</button>
+                <button id="papel" class="boton">Papel ✋</button>
+                <button id="tijera" class="boton">Tijera ✌</button>
+            </div>
+        </nav>
+        <button id="reiniciar">Reiniciar Conteo</button>
+    </main>
+    <footer class="footer">
+        <h3>Creado por: Iván Gutiérrez</h3>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>

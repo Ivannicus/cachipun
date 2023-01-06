@@ -1,0 +1,93 @@
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: aquamarine;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    height: 10vh;
+}
+
+.main{
+    min-height: 75vh;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    padding: 1rem;
+    margin: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: aquamarine;
+    color: white;
+    font-size: medium;
+    text-shadow: .75px 0 0 #000, 0 -.75px 0 #000, 0 .75px 0 #000, -.75px 0 0 #000;
+}
+
+.competidores{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.competidor{
+    padding: 1rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.elecciones{
+    display: flex;
+    flex-direction: column;
+}
+
+.eleccionUsuario{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px aquamarine dashed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.eleccion{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.imagenEleccion{
+    align-self: center;
+    vertical-align: middle;
+    margin: 1rem;
+}
+
+.resultado{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+    height: 10vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#reiniciar{
+    margin: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
