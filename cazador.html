@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cachipun</title>
+</head>
+
+<body>
+    <header class="headerCazador">
+        <h1 class="titulo">Cachipún: Selva</h1>
+        <img src="./cazador escopeta tigre.png" height="75px" class="imagen">
+    </header>
+    <main class="main">
+        <div class="subHeader">
+            <h3 class="tituloReglas">Reglas</h3>
+            <nav class="reglas">
+                <div class="reglaIndividual">
+                    <img src="./cazador.png" alt="cazador" class="imgRegla">
+                    <h4>></h4>
+                    <img src="./escopeta.png" alt="escopeta" class="imgRegla">
+                </div>
+                <div class="reglaIndividual">
+                    <img src="./escopeta.png" alt="escopeta" class="imgRegla">
+                    <h4>></h4>
+                    <img src="./tigre.png" alt="tigre" class="imgRegla">
+                </div>
+                <div class="reglaIndividual">
+                    <img src="./tigre.png" alt="tigre" class="imgRegla">
+                    <h4>></h4>
+                    <img src="./cazador.png" alt="cazador" class="imgRegla">
+                </div>
+            </nav>
+        </div>
+        <div class="competidores">
+            <nav class="elecciones">
+                <h2 class="competidor">PC: <span id="contadorComputer"></span></h2>
+                <span id="computerChoice" class="eleccion"></span>
+            </nav>
+            <h2 class="competidor">VS</h2>
+            <nav class="elecciones">
+                <h2 class="competidor">Tú: <span id="contadorUser"></span></h2>
+                <span id="yourChoice" class="eleccion"></span>
+            </nav>
+        </div>
+        <h2 class="resultado">Resultado: <span id="result"></span></h2>
+        <nav class="eleccionCazador">
+            <h3>Elige sabiamente: </h3>
+            <div class="botones">
+                <button id="cazador" class="boton cazador">Cazador 👮‍♂️</button>
+                <button id="tigre" class="boton cazador">Tigre 🐯</button>
+                <button id="escopeta" class="boton cazador">Escopeta 🔫</button>
+            </div>
+        </nav>
+        <button id="reiniciar" class="botonCambio">Reiniciar Conteo</button>
+        <button class="botonCambio"><a href="./index.html">Modo Normal</a></button>
+    </main>
+    <footer class="footerCazador">
+        <h3>Creado por: Iván Gutiérrez</h3>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
