@@ -16,6 +16,7 @@
 .botones{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .boton{
@@ -44,6 +45,7 @@
 .elecciones{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .eleccionUsuario{
